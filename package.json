@@ -1,0 +1,22 @@
+{
+    "name": "my-vue-app",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "router": "node ./router/index.js",
+        "dev": "router & vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "ant-design-vue": "^3.2.11",
+        "vue": "^3.2.31",
+        "vue-router": "^4.1.3"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.1",
+        "vite": "^3.0.4"
+    },
+    "projectId": "79"
+}
